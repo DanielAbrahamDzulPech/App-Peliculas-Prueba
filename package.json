@@ -1,0 +1,28 @@
+{
+  "name": "cinemaplusvue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "test:e2e": "playwright test",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "axios": "^1.4.0",
+    "roboto-fontface": "*",
+    "vue": "^3.3.2",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.2.0",
+    "vuetify": "^3.3.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.5",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  }
+}
