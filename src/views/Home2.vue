@@ -50,7 +50,7 @@
                       <v-card-text>
                         <div class="text-h3 pa-12">
                           <v-container>
-                            <v-row>
+                            <v-row :style="`background-image: url(${ 'https://image.tmdb.org/t/p/w500/' + movieUnico.backdrop_path })`">
                               <v-col cols="12" sm="6" md="4">
                                 <v-img
                                   class="bg-white"
